@@ -64,6 +64,9 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 # Build
 BUILD_BROKEN_DUP_RULES := true
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/vendor/bin/mm-qcamera-daemon=23

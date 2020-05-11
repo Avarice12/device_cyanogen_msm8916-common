@@ -200,4 +200,7 @@
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+
+    <!-- Allow devices to use a lower screenrecording bitrate because of old hardware -->
+    <bool name="config_device_needs_lower_bitrate">true</bool>
 </resources>

@@ -147,11 +147,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-legacymm \
-    vendor.mokee.livedisplay@2.0-service-sysfs
-
 # Media
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
@@ -223,10 +218,6 @@ $(call inherit-product, device/cyanogen/msm8916-common/system_prop_msm8939.mk)
 else ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8916)
 $(call inherit-product, device/cyanogen/msm8916-common/system_prop_msm8916.mk)
 endif
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.mokee.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \

@@ -61,6 +61,9 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/vendor/bin/mm-qcamera-daemon=23
